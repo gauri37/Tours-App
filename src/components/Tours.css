@@ -1,0 +1,25 @@
+.title {
+    text-align: center;
+    
+  }
+  .underline {
+    width: 6rem;
+    height: 5px;
+    background: rgb(47, 133, 214);
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .section {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+  }
+
+  @media screen and (min-width: 992px) {
+    .section {
+      width: 95vw;
+    }
+  }
+  
